@@ -1,0 +1,132 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.navbar {
+  background-color: rgb(231, 151, 4);
+  border-radius: 30px;
+}
+.navbar ul {
+  overflow: auto;
+}
+.navbar li {
+  float: left;
+  list-style: none;
+  padding: 13px 20px;
+}
+.navbar li a {
+  color: aliceblue;
+  padding: 6px 6px;
+  cursor: pointer;
+}
+.navbar li a:hover {
+  color: crimson;
+}
+.search {
+  float: right;
+  padding: 12px 75px;
+}
+.navbar input {
+  border: 2px solid black;
+  border-radius: 35px;
+  text-align: center;
+  padding: 3px 10px;
+  width: 130px;
+}
+
+.header-section {
+  display: flex;
+}
+.heading-first {
+  width: 50%;
+}
+.heading-second {
+  width: 50%;
+}
+
+.head-title {
+  color: #575757;
+  font-size: 50px;
+  margin-top: 200px;
+  margin-left: 100px;
+}
+.head-color {
+  color: orangered;
+}
+.head-description {
+  margin-left: 100px;
+}
+.btn {
+  display: inline-block;
+  background-color: orangered;
+  padding: 24px 32px;
+  text-decoration: none;
+  color: white;
+  border-radius: 35px;
+  margin-left: 100px;
+  margin-top: 49px;
+}
+.middle-section {
+  display: flex;
+  background-image: url(images/shapes/7.png);
+}
+.middle-second {
+  margin-top: 127px;
+  margin-right: 165px;
+  padding: 0 46px;
+}
+.middle-second h2 {
+  color: #575757;
+}
+.middle-second a {
+  display: inline-block;
+  background-color: orangered;
+  padding: 24px 32px;
+  text-decoration: none;
+  color: white;
+  border-radius: 35px;
+  margin-top: 90px;
+}
+.person-image {
+  width: 338px;
+  height: 536px;
+  margin-left: 199px;
+  margin-right: 198px;
+  margin-top: 64px;
+}
+.third-section {
+  margin: 0 367px;
+  text-align: center;
+}
+.fourth-section {
+  display: flex;
+  margin-top: 38px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.fourth-section div {
+  padding: 20px 20px 0 20px;
+  border: 2px solid white;
+  box-shadow: 10px 10px 40px gray;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.fourth-section div:hover {
+  background-color: orange;
+}
+.fourth-section div img {
+  width: 337px;
+  height: 256px;
+}
+.item1 {
+  margin-right: 54px;
+}
+.item2 {
+  margin-right: 54px;
+}
+footer {
+  margin-top: 50px;
+  text-align: center;
+  background-color: #0b0d17;
+  color: white;
+  padding: 50px;
+}
